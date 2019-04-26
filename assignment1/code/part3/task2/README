@@ -1,0 +1,13 @@
+Run small data, go to small_data directory and execute the run.sh:
+In run.sh
+1)please specify the master address by yourself, e.g. spark://c220g2-011329vm-1.wisc.cloudlab.us:7077
+2)please specify the partition number by yourself, e.g.30
+3)please specify the input file path(hdfs path, this path must be not exist already) by yourself, e.g.hdfs://128.104.223.193:9000/part3/web-BerkStan.txt
+
+
+Run large data, go to large_data directory and execute the run.sh:
+In run.sh 
+1)please specify the master address by yourself, e.g. spark://c220g2-011329vm-1.wisc.cloudlab.us:7077
+2)please specify the partition number by yourself, e.g. 30 
+3)please specify output path(hdfs path) by yourself, e.g. hdfs://128.104.223.193:9000/output1
+4)please specify 9 input files path(hdfs path) by yourself, e.g. hdfs://128.104.223.193:9000/part3/link-enwiki-20180601-pages-articles1.xml-p10p30302 hdfs://128.104.223.193:9000/part3/link-enwiki-20180601-pages-articles2.xml-p30304p88444 hdfs://128.104.223.193:9000/part3/link-enwiki-20180601-pages-articles3.xml-p88445p200507 hdfs://128.104.223.193:9000/part3/link-enwiki-20180601-pages-articles4.xml-p200511p352689 hdfs://128.104.223.193:9000/part3/link-enwiki-20180601-pages-articles5.xml-p352690p565312 hdfs://128.104.223.193:9000/part3/link-enwiki-20180601-pages-articles6.xml-p565314p892912 hdfs://128.104.223.193:9000/part3/link-enwiki-20180601-pages-articles7.xml-p892914p1268691 hdfs://128.104.223.193:9000/part3/link-enwiki-20180601-pages-articles8.xml-p1268693p1791079 hdfs://128.104.223.193:9000/part3/link-enwiki-20180601-pages-articles9.xml-p1791081p2336422

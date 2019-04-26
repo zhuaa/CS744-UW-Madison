@@ -1,0 +1,5 @@
+Run part2, execute the run.sh:
+In run.sh
+1)please specify the master address by yourself, e.g. spark://c220g2-011329vm-1.wisc.cloudlab.us:7077
+2)please specify the input file path(hdfs path) by yourself, e.g. hdfs://128.104.223.193:9000/debug1/export.csv
+3)please specify the output path(hdfs path) by yourself, e.g. hdfs://128.104.223.193:9000/output_part2

@@ -1,0 +1,11 @@
+To run this program, you would need to execute the run_code_template.sh script
+Do: bash run_code_template.sh
+there will be 3 options.
+1. Single Mode
+2. Asynchronous
+3. Synchronous
+By default all distributed SGDs run on 3 workers and 1 parameter server
+
+To view the logs,
+serverlog-[i].out, for logs on worker i
+serverlog-ps-0.out, for logs on parameter server at node 0
